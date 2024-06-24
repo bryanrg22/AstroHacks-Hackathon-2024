@@ -5,7 +5,7 @@ using OpenAI;
 
 public class ChatGPTManager
 {
-    private OpenAIApi openAI = new OpenAIApi("OPENAI_API_KEY");
+    private OpenAIApi openAI = new OpenAIApi(/*INSERT OPENAI_API_KEY HERE*/);
     //
     private List<ChatMessage> messages = new List<ChatMessage>();
     public string storedResponse="";
